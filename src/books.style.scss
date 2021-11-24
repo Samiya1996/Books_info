@@ -1,0 +1,45 @@
+.heading {
+
+    font-family: random($limit: 1);
+    text-align: center;
+    font-weight: 700;
+    font-size: inherit;
+    
+}
+
+.grid {
+    grid-column: 1;
+    gap: 10;
+    padding: 30px;
+    grid-column: 2;
+    column-width: 0px;
+    grid-row-end: inherit;
+    position:absolute;
+    
+}
+.book-title {
+   font-weight: bold;
+   margin-top: 3;
+   margin-bottom: 4; 
+   font-size: 15px;
+}
+
+.background {
+    
+    padding: 5px;
+
+}
+
+.book-list {
+    position:inherit;
+    padding : auto;
+}
+
+.book-image {
+
+    position: relative;
+    block-size: auto;
+    width :20%;
+
+
+}
